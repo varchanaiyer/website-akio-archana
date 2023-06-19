@@ -1,0 +1,214 @@
+#-------------------------------
+# Site Settings
+title: Archana Vaidheeswaran
+logo: # You can add own logo. For example '/images/logo.png'.
+description: Creative Portfolio Theme for Jekyll.
+color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+
+
+#-------------------------------
+# Navigation Settings
+menu__settings:
+  menu__items:
+    - title: 'Home'
+      url: '/'
+    - title: 'About'
+      url: '/about/'
+    - title: 'My career'
+      url: '/career/'
+    - title: 'Work'
+      submenu:
+      - url: '/work/'
+        title: 'Intiatives'
+      - url: '/communitywork/'
+        title: 'Community Work'
+
+    - title: 'Articles'
+      url: '/blog/'
+
+    - title: 'Contact'
+      url: '/contact/'
+      # submenu:
+      # - url: '/contact/'
+      #   title: 'Contact'
+      # - url: '/elements/'
+      #   title: 'Elements'
+
+
+#-------------------------------
+# Author Settings
+author:
+  author__name: Vaidheeswaran Archana
+  author__bio: Hi, I'm a Data Product Manager specializing in AI and ML at Women Who Code and a board member at WIML, currently broadening my horizon with an MBA at NUS. Passionate about tech diversity, when not immersed in data, I'm usually exploring Singapore on my bicycle.
+  author__avatar: '/images/bio3.JPEG'
+
+social:
+- {icon: "ion-logo-twitter", link: "https://twitter.com/varchanaiyer_"}
+# - {icon: "ion-logo-facebook", link: "https://facebook.com"}
+# - {icon: "ion-logo-instagram", link: "https://instagram.com"}
+# - {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
+- {icon: "ion-logo-github", link: "https://github.com/varchanaiyer"}
+- {icon: "ion-logo-linkedin", link: "https://www.linkedin.com/in/archana-iyer/"}
+# - {icon: "ion-logo-vimeo", link: "https://vimeo.com"}
+
+# Example of adding a new link to the footer - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
+# Other icons can be found at https://ionicons.com/v4/
+
+
+#-------------------------------
+# Hero Settings
+hero:
+  enable: true
+  hero__title: Hey everyone, I’m Archana
+  hero__description: Hi, I'm a Data Product Manager specializing in AI and ML at Women Who Code and a board member at WIML, currently broadening my horizon with an MBA at NUS. Passionate about tech diversity, when not immersed in data, I'm usually exploring Singapore on my bicycle.
+  hero__image: "/images/bio1.jpg"
+
+
+#-------------------------------
+# Logos Settings
+logos:
+  enable: true
+  logos__title: Companies I had the pleasure to work with
+
+logo__items:
+  - name: Saama Technologies
+    link: "https://www.saama.com//"
+    image: "/images/saama_logo.png"
+
+  - name: DHL Express
+    link: "https://www.dhl.com/"
+    image: "/images/dhl_logo.png"
+
+  - name: Women Who Code
+    link: "https://www.womenwhocode.com/"
+    image: "/images/wwc_logo.png"
+
+  - name: Continental Automotive
+    link: "https://www.continental.com/"
+    image: "/images/conti_logo.png"
+
+  - name: LinkedIn Learning
+    link: "https://www.linkedin.com/learning/"
+    image: "/images/ll_logo.png"
+
+  - name: WIML
+    link: "https://wimlworkshop.org/"
+    image: "/images/wiml_logo.png"
+
+  - name: Udacity
+    link: "https://www.udacity.com/"
+    image: "/images/udacity_logo.png"
+#-------------------------------
+# Newsletter
+mailchimp:
+  enable: true
+  mailchimp__identifier: frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3 # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
+  mailchimp__input__text: Your email address...
+  mailchimp__button__text: Subscribe
+
+
+#-------------------------------
+# Work Settings
+work:
+  enable: true
+  work__title: Intiatives
+  work_description: Showcasing curated portfolios, each project mirrors my passion for AI, creativity in data management, and commitment to tech diversity.
+
+#-------------------------------
+# Community Work
+communitywork:
+  enable: true
+  communitywork__title: Community Work
+  communitywork__description: Check out my community work
+
+#-------------------------------
+# Testimonials Section
+testimonials:
+  enable: true
+
+testimonial__title: Recommendations
+testimonial__description:
+
+testimonial__items:
+  - name: "Naomi Freeman"
+    image: "/images/naomi_image.jpeg"
+    designation: "Board Advisor"
+    link: "https://www.linkedin.com/in/torontotechstoryteller/"
+    content : "It's rare that you come across standout talent like Archana! I had the pleasure of co-leading a technical workshop to launch International Women's Day at the London School of Economics with Archana. We have worked alongside each other as Fellows at Women Who Code for some time, but this was our first opportunity to really build and execute a project together. I was particularly impressed by Archana's high level of technical proficiency, and her depth of technical knowledge. Further, her teaching style invites learners in to engage and ask questions. No matter the time of day, Archana shows up with a smile and a huge bucket of enthusiasm. Archana is certainly an asset to any team lucky enough to have her."
+
+  - name: "Sheralynn Tijoe"
+    image: "/images/rec_2.jpeg"
+    designation: "Associate Director - Recruitment"
+    link: "https://www.linkedin.com/in/sheralynntjioe/"
+    content : "Have known Archana for quite some time and she sparks off as a very postive and engaging individual. What impresses me about Archana is her love for the Technology/Women in Technology community where she volunteers and helps out at a lot of external events on top of her day job. She has a lot of passion for Technology and is inspiring in the ways that she goes above and beyond. She would be a lovely addition to any firms she joins and any firm would be lucky to have her!"
+
+  - name: "Neeha Rathna Janjanam"
+    image: "/images/reader_1.jpeg"
+    designation: "Data Analyst"
+    link: "https://www.linkedin.com/in/neeha-rathna-janjanam/"
+    content : "I stumbled upon the WWCode series on Edge Computing on Youtube. It has given me a great foundation as I was looking for content to break into the field."
+
+  - name: "Sergio Laureano"
+    image: "/images/reader_2.jpeg"
+    designation: "Designer"
+    link: "https://www.linkedin.com/in/sergefactor/"
+    content : " I finished your Learning TinyML class and it was excellent! Thank you so much for a very clear, concise course. "
+
+  - name: "Rohit Sharma"
+    image:  "/images/reader_3.jpeg"
+    designation: "Founder"
+    link: "https://www.linkedin.com/in/srohit0/"
+    content : "Loved watching your Learning TinyML course on LinkedIn. Impressive delivery."
+
+  - name: "Alex Chien"
+    image:  "/images/reader_4.jpeg"
+    designation: "Founder, NYP AI"
+    link: "https://www.linkedin.com/in/alex-chien-09/"
+    content : "Really enjoyed your talk about quantum machine learning"
+
+  - name: "Eslam El-Naggar"
+    image: "/images/reader_5.jpeg"
+    designation: "Embedded Software Developer"
+    link: "https://www.linkedin.com/in/eslam26/"
+    content : "I have learned a lot of information from this nanodegree program. I have deployed pre-trained models using OpenVINO toolkit, I have used Model Optimizer to convert deep learning models to get their inference files"
+
+  - name: "Poojita Garg"
+    image: "/images/reader_6.jpeg"
+    designation: "Graduate Student"
+    link: "https://www.linkedin.com/in/poojita-garg-a4201118b/"
+    content : "I had come across your blog for Women Who code and found it really amazing. I got really interested in the leadership program at WWCode and applied for it."
+
+#-------------------------------
+# Blog Section
+blog:
+  enable: true
+
+blog__settings:
+  blog__title: Articles
+  blog__description:
+
+
+#-------------------------------
+# Footer Settings
+footer__background__image: "/images/bg1.jpg"
+
+#-------------------------------
+# Contact Settings
+contact:
+  email: varchanaiyer139@gmail.com # Add your form_id
+  description: Interested in discussing an AI or ML project, or considering a consulting gig within these domains? Passionate about DEI opportunities and eager to make a difference? I'm all ears! Feel free to reach out and share your ideas - let's see how we can collaborate to bring them to life.. # Add a description of your form
+
+# NOTE
+# Akio theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus:
+  enable: true
+  disqus__identifier: anvod-studio-test # Add your shortname for Disqus Comment. For example anvod-studio-test
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your GA Tracking Id

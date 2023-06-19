@@ -1,0 +1,21 @@
+---
+title: Introduction to LLM series
+description: Curious about the buzz around Large Language Models (LLMs) like GPT and BERT?
+date: 2023-06-07 08:01:35 +0300
+image: '/images/community/llmseries.jpeg'
+---
+
+The Language of the Future - Intro to LLMs” is a series designed with beginners in mind and breaks down complex concepts into digestible nuggets. Whether you’re new to the world of AI or looking to deepen your understanding, we’ll guide you through the fascinating landscape of LLMs in a friendly and interactive environment.
+
+Check out the sessions here
+
+ 
+<!-- <div class="gallery">
+<img src="/images/community/llmseries1.jpeg" loading="lazy">
+</div> -->
+
+<br>
+<br>
+## Session 1: Introduction to Generative AI and LLMs:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/njXvHG7UN0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

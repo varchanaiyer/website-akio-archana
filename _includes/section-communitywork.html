@@ -1,0 +1,48 @@
+{% if site.data.settings.communitywork.enable == true %}
+<!-- begin communityworks -->
+<div class="container">
+    <section class="section communityworks animate">
+        <div class="row">
+
+            <div class="col col-4 col-d-12">
+                <div class="section__info">
+                    <h2 class="section__title">{{ site.data.settings.communitywork.communitywork__title }}</h2>
+                    {% if site.data.settings.communitywork.communitywork__description %}
+                    <p class="section__description">{{ site.data.settings.communitywork.communitywork__description }}
+                    </p>
+                    {% endif %}
+                    <a href="{{ '/communitywork' | relative_url }}" class="section__link">Show all community works <i
+                            class="ion ion-md-arrow-forward"></i></a>
+                </div>
+            </div>
+
+            <div class="col col-8 col-d-12">
+                <div class="row">
+                    {% assign sorted = site.communityworks | sort: 'date' | reverse %}
+                    {% for communitywork in sorted limit:4 %}
+                    <article class="communitywork col col-6 col-d-12">
+                        <div class="communitywork__content">
+                            <a href="{{ communitywork.url }}" class="communitywork__image">
+                                <img class="lazy" data-src="{{ communitywork.image }}" alt="{{ communitywork.title }}">
+                            </a>
+                            <div class="communitywork__info">
+                                {% if communitywork.category %}
+                                <div class="communitywork__category">{{ communitywork.category }}</div>
+                                {% endif %}
+                                <h3 class="communitywork__title"><a href="{{ communitywork.url }}">{{
+                                        communitywork.title }}</a></h3>
+                                {% if communitywork.description %}
+                                <p class="communitywork__description">{{ communitywork.description }}</p>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </article>
+                    {% endfor %}
+                </div>
+            </div>
+
+        </div>
+    </section>
+</div>
+<!-- end communityworks -->
+{% endif %}

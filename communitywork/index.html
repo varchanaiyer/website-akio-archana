@@ -1,0 +1,41 @@
+---
+layout: default
+title: My Community work
+description: My community work is displayed here
+---
+
+<div class="container">
+    <div class="page-section-head">
+        <h1 class="page-title">{% if page.title %}{{ page.title }}{% else %}{{
+            site.data.settings.communitywork.communitywork__title }}{% endif %}</h1>
+        {% if page.description %}
+        <p class="page-description">{{ page.description }}</p>
+        {% else %}
+        <p class="page-description">{{ site.data.settings.communitywork.communitywork__description }}</p>
+        {% endif %}
+    </div>
+</div>
+
+<div class="communitywork-page container animate">
+    <div class="row">
+        {% for communitywork in site.communityworks reversed %}
+        <article class="communitywork col col-4 col-d-6 col-t-12">
+            <div class="communitywork__content">
+                <a href="{{ communitywork.url }}" class="work__image">
+                    <img class="lazy" data-src="{{ communitywork.image }}" alt="{{ communitywork.title }}">
+                </a>
+                <div class="communitywork__info">
+                    {% if communitywork.category %}
+                    <div class="communitywork__category">{{ communitywork.category }}</div>
+                    {% endif %}
+                    <h3 class="communitywork__title"><a href="{{ communitywork.url }}">{{ communitywork.title }}</a>
+                    </h3>
+                    {% if communitywork.description %}
+                    <p class="communitywork__description">{{ communitywork.description }}</p>
+                    {% endif %}
+                </div>
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+</div>
