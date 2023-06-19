@@ -102,10 +102,11 @@ logo__items:
 # Newsletter
 mailchimp:
   enable: true
-  mailchimp__identifier: frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3 # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
-  mailchimp__input__text: Your email address...
-  mailchimp__button__text: Subscribe
 
+  newsletter_service: substack # Specify the newsletter service you're using (e.g., substack)
+  substack__url: https://tinyml.substack.com/subscribe # Add your Substack subscribe URL (replace 'yoursubstack' with your Substack's name)
+  substack__input__text: Your email address...
+  substack__button__text: Subscribe to my content
 
 #-------------------------------
 # Work Settings
