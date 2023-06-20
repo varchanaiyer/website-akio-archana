@@ -102,7 +102,7 @@ logo__items:
 # Newsletter
 newsletter:
   enable: true
-    substack:
+  substack:
     url: "https://tinyml.substack.com/embed"
     input__text: "Your email address..."
     button__text: "Get Insights"
