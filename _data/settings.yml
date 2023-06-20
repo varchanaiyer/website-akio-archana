@@ -104,8 +104,8 @@ newsletter:
   enable: true
     substack:
     url: "https://tinyml.substack.com/embed"
-    button__text: "Get Insights"
     input__text: "Your email address..."
+    button__text: "Get Insights"
 
 #-------------------------------
 # Work Settings
