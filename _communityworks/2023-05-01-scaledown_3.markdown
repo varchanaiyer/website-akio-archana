@@ -19,3 +19,29 @@ Check out the sessions here
 ## Session 1: Introduction to Generative AI and LLMs:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/njXvHG7UN0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+<br>
+<br>
+## Session 2: Fine-Tuning LLMs:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IPgQHtDbZ3w?si=X43nolJJwI0KWDi7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+<br>
+<br>
+## Session 3: Deep Dive into Prompt Engineering:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/e7fwLQxjml8?si=tpfVLiFfHm1ijdST" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<br>
+<br>
+## Session 4: Advanced Applications of LLMs:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/00CWUOrQKBU?si=z8MdWyblP2Gk11tb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<br>
+<br>
+## Session 5: Product Development in LLMs:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NI9RGfMb8o4?si=Cwl5wxneGUhfU6UG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
