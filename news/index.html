@@ -1,0 +1,12 @@
+<!-- In the News Section -->
+<div class="news-section">
+    <h2>In the News</h2>
+    <div class="news-grid">
+        {% for news_item in site.data.news %}
+        <div class="news-item">
+            <img src="{{ news_item.image }}" alt="{{ news_item.title }}">
+            <div class="news-text">{{ news_item.text }}</div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
