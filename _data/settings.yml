@@ -122,6 +122,13 @@ communitywork:
   communitywork__description: Check out my community work
 
 #-------------------------------
+# In the News
+news:
+  enable: true
+  communitywork__title: In the News
+  communitywork__description: Check out my works in the news
+
+#-------------------------------
 # Testimonials Section
 testimonials:
   enable: true
