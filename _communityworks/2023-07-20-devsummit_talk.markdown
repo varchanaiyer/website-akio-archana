@@ -1,5 +1,5 @@
 ---
-title: AI in Product Innovation: Tools, Strategies and Field Lessons
+title: AI in Product Innovation- Tools, Strategies and Field Lessons
 description: Curious about the buzz around Large Language Models (LLMs) like GPT and BERT?
 date: 2023-07-27 08:01:35 +0300
 image: '/images/community/devsummit.png'
