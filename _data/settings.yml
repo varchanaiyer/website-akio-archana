@@ -98,6 +98,16 @@ logo__items:
   - name: Udacity
     link: "https://www.udacity.com/"
     image: "/images/udacity_logo.png"
+
+  - name: Pillar
+    link: "https://pillar-whatsapp-047a3e9cec32.herokuapp.com/"
+    image: "/images/Pillar-Logo-Slogan-1024x611.png"
+
+  - name: Differents
+    link: "https://www.differents.co/"
+    image: "/images/differents-logo.png"
+
+    
 #-------------------------------
 # Newsletter
 newsletter:
